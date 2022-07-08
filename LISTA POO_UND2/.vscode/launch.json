@@ -1,0 +1,112 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestaCalculadora",
+            "request": "launch",
+            "mainClass": "TestaCalculadora",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteRegistroAcademico",
+            "request": "launch",
+            "mainClass": "TesteRegistroAcademico",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteTriangulo",
+            "request": "launch",
+            "mainClass": "TesteTriangulo",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaCliente",
+            "request": "launch",
+            "mainClass": "testaCliente",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaContador",
+            "request": "launch",
+            "mainClass": "testaContador",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaElevador",
+            "request": "launch",
+            "mainClass": "testaElevador",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaLampada",
+            "request": "launch",
+            "mainClass": "testaLampada",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaMaior",
+            "request": "launch",
+            "mainClass": "testaMaior",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaMatriz",
+            "request": "launch",
+            "mainClass": "testaMatriz",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testaNumeroComplexo",
+            "request": "launch",
+            "mainClass": "testaNumeroComplexo",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testeAluno",
+            "request": "launch",
+            "mainClass": "testeAluno",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testeData",
+            "request": "launch",
+            "mainClass": "testeData",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testeFatura",
+            "request": "launch",
+            "mainClass": "testeFatura",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        },
+        {
+            "type": "java",
+            "name": "Launch testeTime",
+            "request": "launch",
+            "mainClass": "testeTime",
+            "projectName": "LISTA POO_UND2_fd5ecb85"
+        }
+    ]
+}

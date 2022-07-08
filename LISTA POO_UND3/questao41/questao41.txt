@@ -1,0 +1,7 @@
+Explique com suas palavras por que não podemos ter construtores declarados
+com a palavra-chave abstract.
+
+
+Quando utilizamos classes ou metodos abstratos, não temos 
+intenção de criar objetos a partir dela, 
+sendo assim não precisaremos de contrutores.
