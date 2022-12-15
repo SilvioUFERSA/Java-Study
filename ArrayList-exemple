@@ -1,0 +1,62 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+
+import entitites.Employer;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(new Locale("en", "US"));
+		Scanner sc = new Scanner(System.in);
+		
+		List<Employer> list = new ArrayList<>();
+	
+		int n;
+		int idIncrease;
+		
+		System.out.print("How many employees will be registered? ");
+		n = sc.nextInt();
+		
+		
+		for(int i = 1 ; i <= n; i++) {
+			System.out.println();
+			System.out.println("Emplyoee #" + i + ":" );
+			System.out.print("Id: ");
+			int id = sc.nextInt();
+			
+			System.out.print("Name: ");
+			sc.nextLine(); // limpa buffer por que há string com espaço
+			String name = sc.nextLine();
+			
+			System.out.print("Salary: ");
+			double salary = sc.nextDouble();
+			
+			list.add(new Employer(id, name, salary));
+		}
+		
+		System.out.println("Enter the employee id that will have salary increase: ");
+		idIncrease = sc.nextInt();
+		
+		Employer getEmployer = list.stream().filter( x -> x.getId() == idIncrease).findFirst().orElse(null);
+		
+		if(getEmployer == null) {
+			System.out.println("this id does not exist!");
+		}else {
+			System.out.println("Enter the percentege");
+			double percent = sc.nextDouble();
+			getEmployer.increase(percent);
+		}
+		
+		for(Employer i : list) {
+			System.out.println(i);
+		}
+		
+		sc.close();
+	}
+	
+}
