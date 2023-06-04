@@ -1,4 +1,4 @@
-# Java-P.O.O-Listas
+# Java-Study
 Listas de Exercícios Java
 
 Este repositório contem:
